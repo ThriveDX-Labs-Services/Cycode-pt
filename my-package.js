@@ -1,1 +1,2 @@
-const xhr = require('cycode-pt');
+const apt = require('cycode-pt');
+const yum = require('cycode-pt-yum');
